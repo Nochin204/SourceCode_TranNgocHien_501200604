@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --animate-duration: 0.2s;
+    transition: width 2s;
+}
+
+.col-2 {
+    flex: 0 0 20%;
+    max-width: 40%;
+    padding-right: 0px;
+}
+.col-10 {
+    /* flex: 0 0 80%;
+    max-width: 96%; */
+    padding-right: 0px;
+    padding-left: 0;
+}
+.cotphai {
+    flex: unset;
+    max-width: 100%;
+    transition: 0s;
+}
+.cottrai {
+    display: none;
+}
+.aoueui.bakugan {
+    font-size: 0.76em;
+}
+.danhsach .aoeui.active:nth-child(odd) {
+    background-color: orange;
+}
+.danhsach .aoeui.active:nth-child(even) {
+    background-color: orange;
+}
+.danhsach {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.danhsach .aoeui:nth-child(odd) {
+    background-color: #fff;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+/*  Define the background color for all the EVEN background rows  */
+.danhsach .aoeui:nth-child(even) {
+    background-color: #b8d1f3;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.tramtrinh {
+    width: 100%;
+    display: none;
+}
+.tramtrinh .keoli {
+    display: none;
+}
+/* .danhsach {
+    display: block;
+} */
+.thitbo {
+    width: 19%;
+    height: auto;
+    padding: 1.4em;
+    background-color: white;
+    position: absolute;
+    z-index: 99999;
+    left: 19%;
+    top: 7%;
+    border-radius: 15px;
+    display: none;
+}
+.TapDong {
+    float: right;
+    border: none;
+    background-color: #fff;
+    color: #888;
+    margin-top: -1em;
+    font-size: 1.4em;
+}
+.keoli .aoeui:nth-child(odd) {
+    background: #fff;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+/*  Define the background color for all the EVEN background rows  */
+.keoli .aoeui:nth-child(even) {
+    background: #b8d1f3;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.info-title,
+.hanhtrinh {
+    display: none;
+}
+body {
+    background-color: #457;
+}
+
+.navbi span {
+    color: #fff;
+    margin-right: 2em;
+}
+
+.navbi {
+    margin: 1em 0em 1em 0em;
+}
+.navbi i {
+    margin-right: 1em;
+}
+
+.danhsach {
+    margin-top: 0.98em;
+    height: 90vh;
+    width: 100%;
+    background-color: #fff;
+}
+#map {
+    height: 90vh;
+    width: 100%;
+}
+
+.giaodienchinh {
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+.dongmo {
+    height: 66px;
+    /* width: 6%; */
+    position: relative;
+    background-color: #457;
+    margin-top: 15.5em;
+    /* bottom: -61%; */
+    right: -24px;
+    z-index: 999;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    color: #fff;
+    font-size: 1.4rem;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.25em;
+}
+.cottrai h4 {
+    font-weight: 700;
+    color: #fff;
+    font-family: system-ui;
+    margin-top: 0.5em;
+}
+
+.leaflet-map-pane svg {
+    z-index: -1;
+}
+.aoeui .active {
+    background-color: pink;
+}
+.tinhhieumang {
+    background-color: rgba(240, 248, 255, 0.579);
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 700;
+    display: flex;
+    border-radius: 9px;
+    padding-right: 1em;
+}
+.tenmang {
+    padding: 0.7em;
+    align-items: center;
+    text-align: center;
+}
+.tenmang div {
+    width: 3.8em;
+    height: 0.6em;
+}
